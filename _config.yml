@@ -42,7 +42,7 @@ keywords: "personal"
 #black-favicon: "/img/black-lab-glass.ico"
 #logo: "" #"/img/author.png" # leave blank if you don't want a logo
 
-background-img: "../img/home3-bg.jpg"
+background-img: "../img/home-bg.jpg"
 
 ##############################
 # Dynamic Text on the Header #
