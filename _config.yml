@@ -31,7 +31,7 @@ force-https: True
 lang: "en"
 author: "Meredith Hatzenbuehler"
 title: "👩 { Meredith Hatzenbuehler }"
-description: "Blog and website of Meredith, blogging about all the things. Opinions expressed are mine."
+description: "Blog and website of Meredith. 🌺"
 keywords: "personal"
 #favicon: "/img/favicon.ico"
 
@@ -162,7 +162,7 @@ pgp: False
 # This works best when your author blurb image has a transparent background, or matches your site background color.
 
 # if the author_blurb is not set, then this feature is skipped
-author_blurb: "Meredith is a developer slash other things currently living in Texas. In her spare time, she tries to become more bendy."
+author_blurb: "Meredith is a developer slash other things currently living on the road. In her spare time, she tries to become more bendy and chill."
 author_blurb_image: "/img/oakley.jpg"
 
 ##################
