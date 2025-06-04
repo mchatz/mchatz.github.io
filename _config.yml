@@ -162,7 +162,7 @@ pgp: False
 # This works best when your author blurb image has a transparent background, or matches your site background color.
 
 # if the author_blurb is not set, then this feature is skipped
-author_blurb: "Meredith is a developer slash other things currently living on the road. In her spare time, she tries to become more bendy and chill."
+author_blurb: "Meredith is a lover of patterns, systems, music, technology (ancient and modern), and connections across disciplines."
 author_blurb_image: "/img/oakley.jpg"
 
 ##################
