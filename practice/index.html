@@ -1,0 +1,31 @@
+---
+layout: page
+title: Practice sessions
+noindex: true
+# Cal.com username, or username/event-slug for one event type.
+# A username alone shows all event types (1 hour and 2 hours).
+cal_link: "merl0ck"
+---
+<h2>Practice sessions</h2>
+
+<p>Pick a session length and a time. You'll get a confirmation email with a Google Meet link and a cancel link.</p>
+
+<p>Times show in your own time zone.</p>
+
+<div id="cal-practice" style="width:100%; min-height:640px; overflow:auto; margin-top:24px;"></div>
+
+<noscript>
+  <p><a href="https://cal.com/{{ page.cal_link }}">Open the booking page on Cal.com</a>.</p>
+</noscript>
+
+<script type="text/javascript">
+  (function (C, A, L) { let p = function (a, ar) { a.q.push(ar); }; let d = C.document; C.Cal = C.Cal || function () { let cal = C.Cal; let ar = arguments; if (!cal.loaded) { cal.ns = {}; cal.q = cal.q || []; d.head.appendChild(d.createElement("script")).src = A; cal.loaded = true; } if (ar[0] === L) { const api = function () { p(api, arguments); }; const namespace = ar[1]; api.q = api.q || []; if (typeof namespace === "string") { cal.ns[namespace] = cal.ns[namespace] || api; p(cal.ns[namespace], ar); p(cal, ["initNamespace", namespace]); } else p(cal, ar); return; } p(cal, ar); }; })(window, "https://app.cal.com/embed/embed.js", "init");
+
+  Cal("init", "practice", { origin: "https://cal.com" });
+  Cal.ns.practice("inline", {
+    elementOrSelector: "#cal-practice",
+    calLink: "{{ page.cal_link }}",
+    layout: "month_view"
+  });
+  Cal.ns.practice("ui", { theme: "dark", hideEventTypeDetails: false, layout: "month_view" });
+</script>
