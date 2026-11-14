@@ -352,6 +352,17 @@ footer {
     }
 }
 
+// Cal.com booking embed (practice page)
+.cal-intro {
+    margin-bottom: 0;
+}
+
+.cal-embed {
+    width: 100%;
+    min-height: 640px;
+    overflow: auto;
+}
+
 ::-moz-selection {
     text-shadow: none;
     background: #fcfcfc;
